@@ -148,6 +148,18 @@ document.addEventListener('keydown', e => {
         case 37:
             direction = "left"
             break
+        case 87:
+            direction = "up"
+            break
+        case 83:
+            direction = "down"
+            break
+        case 65:
+            direction = "left"
+            break
+        case 68:
+            direction = "right"
+            break
     }
     /* if(oldDirection == "up" && direction == "down" || oldDirection == "down" && direction == "up" || oldDirection == "left" && direction == "right" || oldDirection == "right" && direction == "left"){
         direction = oldDirection
